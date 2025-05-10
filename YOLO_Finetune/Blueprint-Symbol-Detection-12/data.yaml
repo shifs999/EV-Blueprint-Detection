@@ -1,0 +1,14 @@
+names:
+- evse
+- gfi
+- panel
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: blueprint-symbol-detection
+  url: https://universe.roboflow.com/shifs-projects/blueprint-symbol-detection/dataset/12
+  version: 12
+  workspace: shifs-projects
+test: C:/Users/deshu/YOLO_Finetune/Blueprint-Symbol-Detection-12/test/images
+train: C:/Users/deshu/YOLO_Finetune/Blueprint-Symbol-Detection-12/train/images
+val: C:/Users/deshu/YOLO_Finetune/Blueprint-Symbol-Detection-12/valid/images
