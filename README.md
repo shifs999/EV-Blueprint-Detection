@@ -3,11 +3,9 @@
 
 This project is a basic electrical symbols detection tool for construction blueprints, specifically EV electrical plans. It identifies key electrical symbols like:
 
-EV Chargers (`evse`)
-Panelboards (`panel`)
-GFI Receptacles (`gfi`)
+EV Chargers (`evse`), Panelboards (`panel`), and GFI Receptacles (`gfi`).
 
-I have used roboflow for augmenting and annotating the data and have trained the model using YOLOv8.
+I have used Roboflow for augmenting and annotating the data and have trained the model using YOLOv8.
 Trained weights can be found [here.](\YOLO_Finetune\runs\detect\train9\weights\best.pt)
 
 ---
